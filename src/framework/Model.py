@@ -9,7 +9,10 @@
 from scipy.sparse import csgraph
 import numpy as np
 from framework import DenoisingAE
-import tensorflow as tf
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
 import random
 from tqdm import tqdm
 

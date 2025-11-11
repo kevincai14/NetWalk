@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8cc6a5a-7580-42b3-b1e4-49dd5f97a0ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-process/input_file_generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-process/monthly_edges/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-process/sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NetWalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetWalk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NetWalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetWalk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/DenoisingAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/DenoisingAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/netwalk_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/netwalk_update.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kevincai14&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chengw07/NetWalk.git&quot;,
+    &quot;accountId&quot;: &quot;2bb36df9-c49d-4ef9-a37c-086154867c88&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="35H1dTiEfAf8kxAyBJSg1hTQGJI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.NetWalk.executor": "Run",
+    "Python.NetWalk_anomaly.executor": "Run",
+    "Python.check.executor": "Run",
+    "Python.input_file_generate.executor": "Run",
+    "Python.sample.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Quan/GitHub/NetWalk",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8cc6a5a-7580-42b3-b1e4-49dd5f97a0ed" name="Changes" comment="" />
+      <created>1762752270651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762752270651</updated>
+      <workItem from="1762752271736" duration="6407000" />
+      <workItem from="1762775335079" duration="75000" />
+      <workItem from="1762775418869" duration="5715000" />
+      <workItem from="1762788301157" duration="4021000" />
+      <workItem from="1762792335028" duration="808000" />
+      <workItem from="1762835113704" duration="3689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NetWalk_test$input_file_generate.coverage" NAME="input_file_generate Coverage Results" MODIFIED="1762789323337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-process" />
+    <SUITE FILE_PATH="coverage/NetWalk_test$check.coverage" NAME="check Coverage Results" MODIFIED="1762790130836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-process/monthly_edges" />
+    <SUITE FILE_PATH="coverage/NetWalk_test$NetWalk_anomaly.coverage" NAME="NetWalk_anomaly Coverage Results" MODIFIED="1762752587408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NetWalk_test$NetWalk.coverage" NAME="NetWalk Coverage Results" MODIFIED="1762838389802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NetWalk_test$sample.coverage" NAME="sample Coverage Results" MODIFIED="1762754447346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-process" />
+  </component>
+</project>
