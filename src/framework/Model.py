@@ -108,6 +108,22 @@ class Model:
         trans_code = tf.reshape(trans_code, [-1, self.walk_len, self.dimension[-1]])
         t_trans_code = tf.transpose(trans_code, [0,2,1])
 
+        '''
+        # 余弦约束：
+        # 新增单位化，使 clique 项等价于基于余弦的约束
+        trans_code_hat = tf.nn.l2_normalize(trans_code, axis=2, epsilon=1e-8)
+        t_trans_code_hat = tf.transpose(trans_code_hat, [0, 2, 1])
+
+        # 后续用单位化后的 code 计算 Laplacian 能量
+        left = tf.einsum('aij,jk->aik', t_trans_code_hat, L)
+        mul  = tf.einsum('aij,ajk->aik', left, trans_code_hat)
+        trace_mul = tf.trace(mul)
+        clique_J = tf.reduce_mean(trace_mul)
+
+        clique_loss = clique_J
+        loss = clique_loss + ae_cost
+        '''
+        
         left = tf.einsum('aij,jk->aik', t_trans_code, L)
 
         mul = tf.einsum('aij,ajk->aik', left, trans_code)
