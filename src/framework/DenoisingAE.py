@@ -6,8 +6,8 @@
     Author: Wei Cheng <weicheng@nec-labs.com>
     Affiliation: NEC Labs America
 """
-import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 def corrupt(x):
     r = tf.add(tf.cast(x, tf.float32), tf.cast(tf.random_uniform(shape=tf.shape(x), minval=0, maxval=0.1, dtype=tf.float32), tf.float32))
