@@ -91,6 +91,7 @@ class Model:
         encoder_out = out['encoder_out']  # [latent_dim, batch_size]
         reconstruction = out['reconstruction']
         ae_loss = out['ae_loss']
+        ae_cost = out['cost']
         kl = out['kl']
         weight_decay_J = out['weight_decay_J']
 
@@ -125,7 +126,7 @@ class Model:
             clique_J = torch.mean(trace_mul)
 
         clique_loss = clique_J
-        loss = clique_loss + ae_loss + kl * self.beta + weight_decay_J
+        loss = clique_loss + ae_cost
         return loss, clique_loss, ae_loss, kl, weight_decay_J, encoder_out
 
     def clique_embedding_loss(self):
